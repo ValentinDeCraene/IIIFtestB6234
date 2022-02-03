@@ -1,0 +1,59 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://ValentinDeCraene.github.io/IIIFtestB6234/manifests/manifesttest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Compte Hubert Ghommer (6234-1) manifest",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/92516776/manifests/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://7bf32aef-5e2c-456f-8f3b-e20c2a0a0312",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://13c61e36-4c32-465f-bd47-c381022a85d7",
+      "@type" : "sc:Canvas",
+      "label" : "Compte Hubert Ghommer (B6234-1)",
+      "height" : 991,
+      "width" : 817,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0ebf1ee9-101a-43eb-aeb6-695c08bf1310",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/b-6234-1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/b-6234-1",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 991,
+          "width" : 817
+        },
+        "on" : "http://13c61e36-4c32-465f-bd47-c381022a85d7"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://valentindecraene.github.io/IIIFtestB6234/annotations/31201e7502ecc26a1f3f64c912928080.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
