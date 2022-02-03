@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://ValentinDeCraene.github.io/IIIFtestB6234/manifests/manifest.json",
     "label" : "Compte Hubert Ghommer (6234-1) manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://ValentinDeCraene.github.io/IIIFtestB6234/manifests/manifesttest.json",
+    "label" : "Compte Hubert Ghommer (6234-1) manifest"
   } ]
 }
