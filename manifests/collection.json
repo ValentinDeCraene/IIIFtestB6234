@@ -1,0 +1,13 @@
+{
+  "id" : "https://ValentinDeCraene.github.io/IIIFtestB6234/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in ValentinDeCraene/IIIFtestB6234 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://ValentinDeCraene.github.io/IIIFtestB6234/manifests/manifest.json",
+    "label" : "Compte Hubert Ghommer (6234-1) manifest"
+  } ]
+}
